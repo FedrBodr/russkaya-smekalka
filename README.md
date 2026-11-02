@@ -1,10 +1,19 @@
 # 🪛 Русская смекалка / Russkaya Smekalka
 
+> **Экономит не токены, а ваши деньги.**
+> **Saves your money, not tokens.**
+
 **[🇷🇺 Русский](#-русский) · [🇬🇧 English](#-english)**
 
 ---
 
 ## 🇷🇺 Русский
+
+### Экономит не токены, а ваши деньги
+
+Сейчас все заморочены экономией токенов. А по-настоящему стоит экономить тот ресурс, которого вы в жизни тратите больше всего: деньги. ИИ за них не платит, ему всё равно, сколько стоит его совет. Поэтому по умолчанию он легко подталкивает к покупке: «возьми вот это за 30 тысяч, и ещё вот это».
+
+Этот скилл работает против этого. Он проверяет, не хочет ли ИИ развести вас на капитализм, и сначала ищет решение, которое дешевле или вообще бесплатное.
 
 Скилл для Claude Code и других ИИ-агентов. Он учит агента отвечать на «купи камеру за 30 тысяч» так: «Погоди. Телефон есть? Швабра есть? Лампа есть? Значит, у тебя уже есть верхняя камера со светом».
 
@@ -52,6 +61,12 @@ cp -r russkaya-smekalka/skills/russkaya-smekalka ~/.claude/skills/
 ---
 
 ## 🇬🇧 English
+
+### Saves your money, not tokens
+
+Everyone is obsessed with saving tokens. But the resource worth saving is the one you spend most in real life: money. The AI doesn't pay for its advice, so it doesn't care what that advice costs you. By default it nudges you to buy: "get this for $330, and this too".
+
+This skill pushes back. It checks whether your AI is upselling you on consumerism, and finds a cheaper or free solution first.
 
 An agent skill for Claude Code and other AI agents. *Smekalka* is the Russian word for street-smart ingenuity: the art of solving a problem with a mop handle, tape and whatever is lying around, instead of buying the "proper" thing.
 
