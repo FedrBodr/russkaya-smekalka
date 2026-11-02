@@ -1,0 +1,9 @@
+{
+  "name": "russkaya-smekalka",
+  "description": "Русская смекалка: дешёвые и находчивые решения вместо дорогих покупок",
+  "version": "0.1.0",
+  "author": { "name": "FedrBodr" },
+  "repository": "https://github.com/FedrBodr/russkaya-smekalka",
+  "license": "MIT",
+  "keywords": ["skill", "budget", "diy", "hack", "smekalka"]
+}

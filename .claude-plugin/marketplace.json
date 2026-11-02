@@ -1,0 +1,11 @@
+{
+  "name": "russkaya-smekalka",
+  "owner": { "name": "FedrBodr" },
+  "plugins": [
+    {
+      "name": "russkaya-smekalka",
+      "source": "./",
+      "description": "Русская смекалка: дешёвые и находчивые решения вместо дорогих покупок"
+    }
+  ]
+}
