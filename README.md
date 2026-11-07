@@ -21,10 +21,11 @@
 
 Обычный ИИ на «это слишком дорого» предлагает то же самое, только подешевле. Это скидка, а не смекалка. Скилл меняет порядок мыслей:
 
+0. **Договориться о понимании.** До совета 2–3 коротких вопроса с вариантами: как понимаешь задачу, что важнее (время, деньги, не возиться), готов ли к риску и обслуживанию.
 1. **Разобрать покупку на функции.** Что мы на самом деле покупаем?
-2. **Провести инвентаризацию.** Что уже лежит дома?
+2. **Провести инвентаризацию.** Что уже лежит дома, и что уже есть и оплачено: свой сервер или VPS, подписки, интеграции.
 3. **Закрыть каждую функцию подручным.** Лампа, вытяжка, скотч, стопка книг, старый телефон, гладильная доска.
-4. **Дать лестницу решений:** 🪛 0 ₽ → 🛒 копейки → 💰 когда всё-таки купить нормальное.
+4. **Дать лестницу решений:** 🪛 0 ₽ → 🛒 копейки → 💰 когда всё-таки купить нормальное. Для подписок сначала «перестать платить»: бесплатный тариф, ужаться до лимита, self-hosted на своём железе. Цена перехода считается полностью: часы, интеграции, бэкапы, риск падения.
 5. **Закончить первым шагом,** который можно сделать сегодня бесплатно.
 6. **Не экономить там, где опасно:** электричество, газ, тормоза, здоровье, данные.
 
@@ -36,7 +37,7 @@
 |---|---|
 | Купи надстройку за 5–15 тысяч, каркас за 12–20 тысяч или б/у электростол за 10–15 тысяч. Плюс коврик. | *Электромотор не нужен. Нужна высота.* Гладильная доска на максимуме или кухонная стойка, ноутбук на стопке книг, таймер на 30–45 минут. **0 ₽.** Если через 2–3 недели реально стоишь по 2+ часа в день, тогда покупай стол. Если боль отдаёт в ногу, иди к врачу. **Начни с:** сегодня 30 минут поработай на кухонной стойке. |
 
-👉 **Ещё 4 кейса с полными ответами** (камера сверху, хранилище фото вместо NAS, проводка в сарай): [examples/README.ru.md](examples/README.ru.md)
+👉 **Ещё кейсы с полными ответами** (камера сверху, хранилище фото вместо NAS, проводка в сарай, подписка на Notion): [examples/README.ru.md](examples/README.ru.md)
 
 ### Установка
 
@@ -76,10 +77,11 @@ Ask it "the overhead camera rig costs $330, too expensive", and it answers: "Wai
 
 Ask a regular AI "this is too expensive" and it suggests the same thing, cheaper. That's a discount, not ingenuity. This skill changes the order of thinking:
 
+0. **Agree on the problem first.** Before advising, 2–3 short multiple-choice questions: how you see the task, what matters most (time, money, no hassle), how much risk and upkeep you accept.
 1. **Break the purchase into functions.** What are you actually paying for?
-2. **Take inventory.** What's already at home?
+2. **Take inventory.** What's already at home, and what you already own or pay for: your own server or VPS, subscriptions, integrations.
 3. **Cover each function with stuff at hand.** A lamp, a kitchen hood, tape, a stack of books, an old phone, an ironing board.
-4. **Give a cost ladder:** 🪛 free → 🛒 pocket change → 💰 when to actually buy the proper thing.
+4. **Give a cost ladder:** 🪛 free → 🛒 pocket change → 💰 when to actually buy the proper thing. For subscriptions, try "stop paying" first: the free plan, shrinking to fit its limit, self-hosting on hardware you already have. The cost of switching is priced in full: hours, integrations, backups, the risk of your own box going down.
 5. **End with a first step** you can take today, for free.
 6. **Never cut corners where it's dangerous:** electricity, gas, brakes, health, data.
 
@@ -91,7 +93,7 @@ Ask a regular AI "this is too expensive" and it suggests the same thing, cheaper
 |---|---|
 | Buy a desktop converter (5–15k), a manual crank frame (12–20k), or a used electric desk (10–15k). Plus a mat. | *You don't need a motor. You need height.* Ironing board at max height or the kitchen counter, laptop on a stack of books, a 30–45 min timer. **Free.** If after 2–3 weeks you actually stand 2+ hours a day, buy the desk. If the pain radiates into your leg, see a doctor. **Start with:** work at the kitchen counter for 30 minutes today. |
 
-👉 **4 more cases with full answers** (overhead camera, family photo storage instead of a NAS, wiring a shed): [examples/README.en.md](examples/README.en.md)
+👉 **More cases with full answers** (overhead camera, family photo storage instead of a NAS, wiring a shed, a Notion subscription): [examples/README.en.md](examples/README.en.md)
 
 ### Install
 

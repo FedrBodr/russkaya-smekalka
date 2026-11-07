@@ -2,7 +2,7 @@
 
 🇷🇺 [Русская версия](README.ru.md)
 
-Method: 4 cases, same model (Claude Sonnet), same question. The only difference is that on the second run the model reads `SKILL.md` first. Answers were given in Russian. Below they are translated and shortened, keeping the substance.
+Method: 5 cases, same model (Claude Sonnet), same question. The only difference is that on the second run the model reads `SKILL.md` first. Answers were given in Russian. Below they are translated and shortened, keeping the substance.
 
 **To be honest up front:** a plain model already saves money. It will also say "don't buy the 30k thing". The difference is *how it thinks*:
 
@@ -13,6 +13,8 @@ Method: 4 cases, same model (Claude Sonnet), same question. The only difference 
 | When to buy the proper thing | Vague | Concrete triggers |
 | First step | "Start with a tripod and lamps" (i.e. go shopping) | Something to do today, for free |
 | Dangerous cases | Warns | Says "don't cut corners here", then tries to shrink the problem itself |
+| Before advising | Advises right away | Checks the task, the priority and appetite for upkeep (case 5) |
+| Replacing something that works | Subscription price only | Full cost of switching: hours, integrations, backups, risk (case 5) |
 
 ---
 
@@ -80,10 +82,38 @@ This case checks that ingenuity doesn't turn into stupidity.
 
 With the skill the model held the safety line and found a move the plain model didn't: shrink the problem itself.
 
+## Case 5. A Notion subscription ($12/month). Step 0 and the cost of switching
+
+> "I pay $12 a month for Notion Plus. I mostly use it alone, it holds three years of notes, and a couple of Zapier automations are hooked up to it. It's expensive. What should I do?"
+
+This case tests step 0 and the "stop paying" branch.
+
+**❌ Without skill.** Solid advice: check whether you need Plus, pay yearly, export first, don't move to Obsidian over $12. But no questions about priorities, no question about hardware you already own, and no "shrink to fit the free limit" option.
+
+**⚠️ Previous skill version (no step 0).** Goes straight to the ladder. Sizes the migration in one phrase, "an evening or two". Doesn't consider your own server or self-hosting.
+
+**✅ With skill, first message.** Questions only, no advice:
+> 1. My reading: pay less than $12, keep the notes, don't break the automations. Right? (yes / no, actually: …)
+> 2. What matters most? (a) time (b) money (c) no hassle (d) the result at any cost
+> 3. How much upkeep can you take? (a) I fix things myself (b) a little, once a month (c) set and forget
+
+**User's reply:** "Yes. Money, but no multi-day migration. Upkeep: a little. I have a mini PC at home with Docker and Home Assistant, 6 GB RAM free. Zapier is on the free plan."
+
+**✅ With skill, after the answers.**
+> **My reading:** stop paying without touching the notes or Zapier; money matters, but no long migration; a little upkeep.
+> 🪛 **Free:** Notion's own free plan. Export the whole workspace first; check the Free limits on the site, not from memory.
+> *Cost of switching:* about an hour, nothing to rewrite, no upkeep, and the downgrade is reversible.
+> 🛒 **Shrink to fit:** move large files to a drive or the mini PC and keep links in Notion. 1–2 hours.
+> 💰 **Self-hosting isn't the move right now.** Moving three years of notes and losing some databases, rewriting the Zapier flows, backups, updates: that's exactly the multi-day migration the user ruled out. Also, the mini PC runs Home Assistant. If it dies, the notes go down with the smart home. One point of failure.
+> **Recommended:** the free rung, because money matters but a long migration doesn't fit.
+> **Start with:** export today and compare Free vs Plus on notion.com/pricing.
+
+The model didn't recommend self-hosting just because it's free. It priced the switch and checked it against the user's priority.
+
 ---
 
 ## Takeaway
 
 Without the skill, the model saves money with a **discount**: the same thing, cheaper. With the skill, it saves money with **ingenuity**: first work out what you really need, then cover it with what's already at home. Buying becomes the last step, not the first.
 
-*Tested 2026-11-02, Claude Sonnet, one run per variant. A demo, not a benchmark.*
+*Tested: cases 1–4 on 2026-11-02, case 5 on 2026-11-04. Claude Sonnet, one run per variant. Cases 1–4 ran before step 0 existed; the current version would first ask up to three questions. A demo, not a benchmark.*
